@@ -157,7 +157,7 @@ int main(void)
     srand((unsigned int)time(NULL));
     printf("Bem-vindo ao Jokenpo!\n");
 
-    while (continuar) {
+    while (continuar > 0) {
         printf("\nEscolha uma opção:\n"
                "1 - Pedra\n"
                "2 - Papel\n"
